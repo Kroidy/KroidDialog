@@ -1,6 +1,7 @@
 (function (window){
     window.KroidDialog = window.KroidDialog ||{};
 
+    
     function createDialog(configuration) {
         var maskLayer = document.createElement('div'); //遮罩层
         maskLayer.classList.add('dialog-mask-layer');
